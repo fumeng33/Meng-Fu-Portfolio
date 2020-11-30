@@ -9,10 +9,6 @@ html, body {
   margin:0;
 }
 
-/* body {
-	color: #2c3e50;
-	font-size: 1em;
-} */
 
 ul > a {
   margin: 3% 1% 3%;
@@ -43,14 +39,15 @@ nav {
   font-size: 30px;
   font-weight: 700;
   margin: 0;
-  padding: 0;
+  padding: 100px;
+  text-align: center;
 
 }
 .row {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  text-align: left;
 }
 
 .contact .heading h2 span {
@@ -64,6 +61,8 @@ nav {
   color: #999999;
   margin: 20px 0 60px;
   padding: 0;
+  text-align: center;
+
 }
 
 .contact .form-control {
@@ -119,4 +118,40 @@ nav {
   color: #999999;
 }
 
-@media  and screen 
+@media (max-width:767px) {
+  .contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.6;
+    margin: 0 0 40px;
+  }
+  
+  .contact .content .info {
+    margin-top: 20px;
+  }
+  .contact .content .info i {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #02434b;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+  }
+  .contact .content .info h4 {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  
+  .contact .content .info h4 span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+  }
+}

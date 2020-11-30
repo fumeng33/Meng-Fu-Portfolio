@@ -89,9 +89,13 @@ header h1, header h2 {
 footer {
   text-align: center;
 }
-.contacts a {
+.contact a {
   padding: 10px;
   display: inline-block;
+}
+.keepintouch {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* Work Experience
 --------------------*/
