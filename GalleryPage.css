@@ -78,7 +78,6 @@ p{
 } 
 img {
   height: 200px;
-  margin-top: 20px;
   vertical-align:middle;
   width: 100%; 
 }
@@ -176,14 +175,7 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 200px;
   }
-  
-  .image-rows{
-    display: flex;
-    width: 500px;
-  }
-  
   
   .image-rows {
     display:flex;
@@ -207,7 +199,6 @@ cursor: pointer;
   } 
   img {
     height: 200px;
-    margin-top: 20px;
     vertical-align:middle;
     width: 100%; 
   }

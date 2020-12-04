@@ -52,10 +52,11 @@ nav {
     width: 50%;
   }
 }
-@media screen and (max-width 768px) {
+@media screen and (max-width 767px) {
   body {
     overflow: hidden;
   }
+  
   .nav-link {
     position: absolute;
     right: 0px;
